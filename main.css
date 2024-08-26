@@ -13,7 +13,7 @@ body {
 
 /* Header Styling */
 header {
-    background-image: url('background-image.jpg'); /* Ganti dengan path atau URL gambar background Anda */
+    background-image: url('https://media.discordapp.net/attachments/1263439565495074827/1277559358342823969/image.png?ex=66cd9b5e&is=66cc49de&hm=25cfacf4cdda10e5e6490f20deef6d1476c6256fc2c00ec9c1865b8721389fd0&=&format=webp&quality=lossless&width=1235&height=662'); /* Ganti dengan path atau URL gambar background Anda */
     background-size: cover;
     background-position: center;
     height: 300px; /* Sesuaikan tinggi header sesuai kebutuhan */
