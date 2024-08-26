@@ -1,0 +1,74 @@
+/* Reset Margin and Padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Warna background body hitam */
+    color: #fff; /* Warna teks putih */
+}
+
+/* Header Styling */
+header {
+    background-image: url('background-image.jpg'); /* Ganti dengan path atau URL gambar background Anda */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Sesuaikan tinggi header sesuai kebutuhan */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #fff; /* Warna teks header putih */
+}
+
+.header-content p {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio-section {
+    margin-top: 20px;
+}
+
+.portfolio-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.portfolio-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.portfolio-section ul {
+    list-style: none;
+}
+
+.portfolio-section li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #111; /* Warna footer sedikit lebih terang dari body */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
